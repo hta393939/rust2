@@ -1,14 +1,12 @@
 [package]
-name = "try1"
-version = "0.1.1"
+name = "try2"
+version = "0.1.2"
 edition = "2024"
 
 [lib]
-name = "try1"
+name = "libtry2"
 crate-type = ["cdylib"]
 
 [dependencies]
-aviutl2 = "0.20.3"
+aviutl2 = "0.21.0"
 rand = "0.10.0"
-
-
